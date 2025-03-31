@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WDD 131 - Dynamic Web Fundamentals - Kaylie Tapia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
 </head>
 <body>
     <header>
@@ -16,22 +20,24 @@
         </nav>
     </header>
     <main>
-        <img>
+        <section class="card">
             <h2>About Me</h2>
-            <img>Me</img>
+            <img src="images/profile-img.webp" alt="student image">Me</img>
             <p></p>
-            <img>Flag</img>
+            <img src="images/usa-flag.webp">Flag</img>
             <p></p>
         </section>
-        <section>
+        <section class="card">
             <h3>Web Dev Resources</h3>
             <!--Links-->
         </section>
 
     </main>
     <footer>
-        <p><span id = "currentyear"></span> Kaylie Tapia United States</p>
-        <p id="lastModified">lastModified</p>
+        <p><span id = "currentyear"></span> &copy; Kaylie Tapia - United States</p>
+        <p>lastModified:</p>
+        <p id="lastModified"></p>
+        <script>let text = document.lastModified; document.getElementById("lastModified").innerHTML = text</script>
 
     </footer>
     

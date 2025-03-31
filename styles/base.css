@@ -1,0 +1,12 @@
+:root {
+    --color-primary: #251101;
+    --color-secondary: #08415C;
+    --color-tertiary: #6C9A8B;
+    --color-quaternary: #F3D3BD;
+    --color-quinary: #FCFAF9;
+
+}
+
+body {
+    font-family: "Winky Sans", sans-serif;
+}
