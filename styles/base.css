@@ -10,3 +10,14 @@
 body {
     font-family: "Winky Sans", sans-serif;
 }
+
+h1 {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+nav{
+    background-color: var(--color-secondary);
+    color: white; 
+}
+
