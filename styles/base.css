@@ -1,11 +1,15 @@
 :root {
-    
+
     --primary-color: #437c90;
     --secondary-color: #255957;
     --accent-color1: #eeebd3;
 }
 
 body {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
-    font-weight: 200;
+    font-family: "Winky Sans", sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-weight: 100;
 }
