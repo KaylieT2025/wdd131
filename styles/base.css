@@ -2,14 +2,169 @@
 
     --primary-color: #437c90;
     --secondary-color: #255957;
-    --accent-color1: #eeebd3;
 }
 
 body {
     font-family: "Winky Sans", sans-serif;
     font-weight: 400;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
 h1 {
     font-weight: 100;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    background-color: var(--primary-color);
+    text-align: center;
+    color: white;
+    padding: 30px 0 0 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#course-title {
+    display: block;
+    font-size: 20px;
+
+}
+
+header nav {
+    display: block;
+    background-color: var(--secondary-color);
+
+
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+    margin: 0;
+}
+
+
+header nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+}
+
+header nav a:hover {
+    border: 1px solid white;
+    padding: 15px;
+}
+
+.card {
+    display: grid;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 2);
+    border-radius: 10px;
+    padding-bottom: 15px;
+}
+
+img {
+    width: 150px;
+    height: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+main h1 {
+    grid-column: 1/3;
+}
+
+main nav {
+    color: black;
+    text-decoration: underline;
+}
+
+main nav a {
+    display: block;
+    color: blue;
+    line-height: 2;
+}
+
+main nav a:hover {
+    border: black solid 2px;
+    padding: 5px;
+}
+
+.card h2 {
+    background-color: var(--primary-color);
+    color: white;
+    margin: 0;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+    text-align: center;
+}
+
+.about-me {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.about-me p {
+    padding: 15px;
+}
+
+.about-me img {
+    padding: 15px;
+}
+
+.about-me h2 {
+    grid-column: 1/3;
+}
+
+.personal-photo {
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.card .about-me h3 {
+    grid-column: 1/3;
+    text-align: center;
+}
+
+.state-info {
+    align-self: center;
+
+}
+
+.flag-photo {
+    grid-column: 1;
+}
+
+.web-dev-resources {
+    display: grid;
+    grid-template-rows: auto 1fr;
+
+}
+
+#web-dev-nav {
+    display: grid;
+    place-items: center;
+}
+
+footer {
+    background-color: var(--primary-color);
+    color: white;
+    text-align: center;
+    font-size: large;
+    width: 100%;
+   
 }
