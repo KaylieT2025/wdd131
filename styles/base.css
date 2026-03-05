@@ -1,0 +1,11 @@
+:root {
+    
+    --primary-color: #437c90;
+    --secondary-color: #255957;
+    --accent-color1: #eeebd3;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-weight: 200;
+}
