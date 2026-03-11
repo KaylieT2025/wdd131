@@ -1,0 +1,36 @@
+:root {
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: rgb(122, 150, 236);
+}
+
+header,
+main,
+footer {
+    margin: 1rem auto;
+    max-width: 640px;
+    border: 4px solid rgb(122, 150, 236);
+    padding: 1rem;
+    
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+section {
+    padding: 1rem;
+}
+
+section:first-of-type{
+    border-bottom: 4px solid rgb(122, 150, 236);
+    padding-bottom: 1rem;
+}
+
+footer {
+    background-color: rgb(122, 150, 236);
+}
