@@ -1,0 +1,23 @@
+:root {
+    font-family: sans-serif;
+}
+
+header,
+main,
+footer {
+    margin: 1rem auto;
+    max-width: 640px;
+    border: 2px #000;
+    padding: 1rem;
+    background-color: aliceblue;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 1rem;
+}
+
+footer {
+    background-color: aliceblue;
+}
