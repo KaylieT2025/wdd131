@@ -83,3 +83,14 @@ footer{
     padding: 2rem;
     font-size: large;
 }
+
+#menu{
+    display: block;
+    font-size: larger;
+    background-color: var(--secondary-color);
+    color: white;
+}
+
+#menu::before{
+    content: "";
+}
