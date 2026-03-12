@@ -1,0 +1,61 @@
+:root {
+    --primary-color: #255568;
+    --secondary-color: #324843;
+    --accent-color: #087294;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+
+}
+
+header {
+    background-color: var(--primary-color);
+}
+
+h1 {
+    color: white;
+}
+
+nav {
+    background-color: var(--primary-color);
+
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-size: larger;
+}
+
+nav a:hover {
+    text-decoration: double;
+    background-color: var(--accent-color);
+
+}
+
+main h1 {
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    max-width: 500px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax (200px, 1fr));
+}
