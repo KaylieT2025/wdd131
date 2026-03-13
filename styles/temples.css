@@ -4,6 +4,8 @@
     --accent-color: #087294;
 }
 
+/*To get rid of padding from browser.*/
+
 * {
     margin: 0;
     padding: 0;
@@ -26,6 +28,7 @@ header {
 h1 {
     color: white;
 }
+/*Navigation bar.*/
 
 nav {
     background-color: var(--primary-color);
@@ -66,16 +69,16 @@ main {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     gap: 1rem;
     margin-bottom: 2rem;
-  
+
 }
 
-main img{
+main img {
     width: 100%;
-    
-    
+
+
 }
 
-footer{
+footer {
     background-color: var(--primary-color);
     color: white;
     display: flex;
@@ -84,13 +87,70 @@ footer{
     font-size: large;
 }
 
-#menu{
+/*For hamburger menu.*/
+
+#menu {
     display: block;
-    font-size: larger;
-    background-color: var(--secondary-color);
+    font-size: 2rem;
+    text-decoration: none;
+    background: none;
+    border: none;
     color: white;
 }
 
-#menu::before{
-    content: "";
+#menu::before {
+    content: "☰";
 }
+
+#menu.show::before{
+    content: "❌";
+}
+
+.navigation{
+    display: none;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.navigation.show{
+    display: flex;
+}
+
+/*.navigation a {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+}*/
+
+/*@media screen and (min-width: 800px) {
+    #menu {
+        display: none;
+    }
+    .navigation{
+        display: flex;
+        flex-direction: row;
+    }
+}*/
+
+/*.navigation li{
+    display: none;
+}
+
+.show li {
+    display: block;
+    display: block;
+}
+.navigation li {
+    display: none;
+}
+
+.navigation li {
+    display: block;
+    flex: 1 1 100%;
+}
+
+#menu {
+    display: none;
+}*/
