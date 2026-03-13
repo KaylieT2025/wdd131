@@ -55,6 +55,7 @@ nav a:hover {
 
 }
 
+/*Main section of HTML with the images.*/
 h2 {
     color: black;
     grid-column: 1/-1;
@@ -76,6 +77,15 @@ main img {
     width: 100%;
 
 
+}
+
+figure{
+    margin: 0;
+    text-align: center;
+}
+
+figcaption{
+    padding: 0.5rem;
 }
 
 footer {
@@ -115,42 +125,3 @@ footer {
     display: flex;
 }
 
-/*.navigation a {
-    display: block;
-    padding: 1rem;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    font-size: larger;
-}*/
-
-/*@media screen and (min-width: 800px) {
-    #menu {
-        display: none;
-    }
-    .navigation{
-        display: flex;
-        flex-direction: row;
-    }
-}*/
-
-/*.navigation li{
-    display: none;
-}
-
-.show li {
-    display: block;
-    display: block;
-}
-.navigation li {
-    display: none;
-}
-
-.navigation li {
-    display: block;
-    flex: 1 1 100%;
-}
-
-#menu {
-    display: none;
-}*/
