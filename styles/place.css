@@ -4,3 +4,7 @@
     --secondary-color: #e50027;
     --accent-color: #f7b504;
 }
+
+body{
+    font-family: "Roboto", sans-serif;
+}
