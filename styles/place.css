@@ -1,0 +1,6 @@
+:root {
+    /*Colors based on state flag.*/
+    --primary-color: #03375e;
+    --secondary-color: #e50027;
+    --accent-color: #f7b504;
+}
