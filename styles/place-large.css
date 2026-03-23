@@ -1,0 +1,38 @@
+@media (min-width: 786px){
+
+    main{
+        position: relative;
+    }
+
+    .card-container {
+        height: 0;
+        padding: 0;
+    }
+
+    .weather-icon{
+        display: none;
+    }
+
+    .weather-emoji{
+        display: block;
+    }
+    
+    .card2 h2::after{
+        content: "🌦️";
+        font-size: 2rem;
+        margin-left: 10px;
+
+    }
+
+    .card1{
+        position: absolute;
+        top: 40px;
+        left: 40px;
+    }
+
+    .card2{
+        position: absolute;
+        bottom: 40px;
+        right: 40px;
+    }
+}
