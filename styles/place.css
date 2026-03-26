@@ -1,7 +1,7 @@
 :root {
     /*Colors based on state flag.*/
     --primary-color: #03375e;
-    --secondary-color: #e50027;
+    --secondary-color: #8A0017;
     --accent-color: #f7b504;
     --accent-color-transparent: rgba(247, 181, 4, 0.60);
     --secondary-color-transparent: rgba(229, 0, 39, 0.70);
