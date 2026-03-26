@@ -85,3 +85,11 @@ footer{
     color: white;
 }
 
+#current-year, 
+#lastModified{
+    color: white;
+}
+
+footer p {
+    color: white;
+}
