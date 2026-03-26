@@ -75,7 +75,7 @@ const temples = [
         templeName: "Winter Quarters Nebraska",
         location: "Omaha, Nebraska",
         dedicated: "2001, April, 22",
-        area: 68112,
+        area: 16000,
         imageUrl:
             "https://www.churchofjesuschrist.org/imgs/cd77143a31e1668c770005c2c14a8fbfed284e6b/full/3840%2C/0/default"
     },
@@ -83,7 +83,7 @@ const temples = [
         templeName: "Adelaide Australia",
         location: "Marden, South Australia",
         dedicated: "2000, June, 15",
-        area: 5070,
+        area: 10700,
         imageUrl:
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/adelaide-australia/1280x800/adelaide-australia-temple-lds-675332-wallpaper.jpg"
     },
@@ -91,7 +91,7 @@ const temples = [
         templeName: "Paris France Temple",
         location: "Le Chesnay, France",
         dedicated: "2017, May, 21",
-        area: 78150,
+        area: 44175,
         imageUrl:
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/paris-france/1280x800/paris-france-temple-exterior-1905503.jpg"
     },
