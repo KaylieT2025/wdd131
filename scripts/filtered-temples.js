@@ -70,7 +70,7 @@ const temples = [
         imageUrl:
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/mexico-city-mexico/400x250/mexico-city-temple-exterior-1518361-wallpaper.jpg"
     },
-    // Add more temple objects here...
+    // Added more temple objects.
     {
         templeName: "Winter Quarters Nebraska",
         location: "Omaha, Nebraska",
@@ -96,3 +96,57 @@ const temples = [
             "https://content.churchofjesuschrist.org/templesldsorg/bc/Temples/photo-galleries/paris-france/1280x800/paris-france-temple-exterior-1905503.jpg"
     },
 ];
+
+//Cards
+function displayTemples(temples) {
+    const container = document.querySelector("#temple-cards");
+    conatiner.innerHTML = "";
+
+    temples.forEach(element => {
+        let card = document.createElement("section");
+        let name = document.createElement("h3");
+        let location = document.createElement("p");
+        let dedication = document.createElement("p");
+        let area = document.createElement("p");
+        let image = document.createElement("img");
+
+        name.textContent = temple.templeName;
+        location.textContent = `Location: ${temple.location}`;
+        dedication.textContent = `Dedication: ${temple.dedicated}`;
+        area.textContent = `Area: ${temple.area} sq ft`;
+
+        image.setAttribute("src", temple.imageUrl);
+        image.setAttribute("alt", temple.templeName);
+        image.setAttribute("loading", "lazy");
+
+        card.appendChild(name);
+        card.appendChild(location);
+        card.appendChild(dedication);
+        card.appendChild(area);
+        card.appendChild(image);
+
+        conatiner.appendChild(card);
+    });
+}
+
+//Filtering
+document.querySelector(#home).addEventListener("click", () => displayTemples(temples));
+document.querySelector(#old).addEventListener("click", () => {
+    const oldTemples = temples.filter(t => parseInt(t.dedicated.split(",")[0])) < 1900);
+    displayTemples(oldTemples);
+});
+document.querySelector(#new).addEventListener("click", () => {
+    const newTemples = temples.filter(t => parseInt(t.dedicated.split(",")[0]) > 2000));
+    displayTemples(newTemples);
+
+});
+document.querySelector(#large).addEventListener("click", () => {
+    const largeTemples = temples.filter(t => temples.area > 90000);
+    displayTemples(largeTemples);
+});
+document.querySelector(#small).addEventListener("click", () => {
+    const smallTemples = temples.filter(t => temples.area < 10000);
+    displayTemples(smallTemples);
+});
+
+displayTemples(temples);
