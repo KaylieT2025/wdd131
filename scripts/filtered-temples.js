@@ -100,9 +100,9 @@ const temples = [
 //Cards
 function displayTemples(temples) {
     const container = document.querySelector("#temple-cards");
-    conatiner.innerHTML = "";
+    container.innerHTML = "";
 
-    temples.forEach(element => {
+    temples.forEach(temple => {
         let card = document.createElement("section");
         let name = document.createElement("h3");
         let location = document.createElement("p");
@@ -125,27 +125,27 @@ function displayTemples(temples) {
         card.appendChild(area);
         card.appendChild(image);
 
-        conatiner.appendChild(card);
+        container.appendChild(card);
     });
 }
 
 //Filtering
-document.querySelector(#home).addEventListener("click", () => displayTemples(temples));
-document.querySelector(#old).addEventListener("click", () => {
-    const oldTemples = temples.filter(t => parseInt(t.dedicated.split(",")[0])) < 1900);
+document.querySelector("#home").addEventListener("click", () => displayTemples(temples));
+document.querySelector("#old").addEventListener("click", () => {
+    const oldTemples = temples.filter(t => parseInt(t.dedicated.split(",")[0]) < 1900);
     displayTemples(oldTemples);
 });
-document.querySelector(#new).addEventListener("click", () => {
-    const newTemples = temples.filter(t => parseInt(t.dedicated.split(",")[0]) > 2000));
+document.querySelector("#new").addEventListener("click", () => {
+    const newTemples = temples.filter(t => parseInt(t.dedicated.split(",")[0]) > 2000);
     displayTemples(newTemples);
 
 });
-document.querySelector(#large).addEventListener("click", () => {
-    const largeTemples = temples.filter(t => temples.area > 90000);
+document.querySelector("#large").addEventListener("click", () => {
+    const largeTemples = temples.filter(t => t.area > 90000);
     displayTemples(largeTemples);
 });
-document.querySelector(#small).addEventListener("click", () => {
-    const smallTemples = temples.filter(t => temples.area < 10000);
+document.querySelector("#small").addEventListener("click", () => {
+    const smallTemples = temples.filter(t => t.area < 10000);
     displayTemples(smallTemples);
 });
 
