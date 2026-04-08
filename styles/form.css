@@ -1,0 +1,47 @@
+:root{
+
+    --primary-color: #440544;
+    --secondary-color: #b686b6;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+h1{
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 270px;
+}
+
+form{
+
+    background-color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    max-width: 300px;
+    
+}
+
+footer{
+
+    background-color: var(--primary-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 1rem;
+    margin: 2rem auto;
+    width: 100%;
+    max-width: 300px;
+}
