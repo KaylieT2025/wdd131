@@ -47,6 +47,10 @@ form{
     flex-wrap: wrap;
 }
 
+.required{
+    color: red;
+}
+
 /* select, 
 input[type="text], 
 input[type="date"]{

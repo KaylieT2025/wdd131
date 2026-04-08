@@ -22,13 +22,13 @@
 
         <form method="get" action="review.html">
 
-            <label for="productName">Product Name<span style="color:red;">*</span></label>
+            <label for="productName">Product Name<span class="required">*</span></label>
             <select id="productName" name="productName" required>
                 <option value="" disabled selected>Select a product...</option>
             </select>
             
             <fieldset class="rating">
-                <label>Overall Rating<span style="color:red;">*</span></label>
+                <label>Overall Rating<span class="required">*</span></label>
                 <input type="radio" name="rating" value="1" id="rating1" required>
                 <label for="rating1">☆</label>
                 <input type="radio" name="rating" value="2" id="rating2" required>
@@ -41,7 +41,7 @@
                 <label for="rating5">☆☆☆☆☆</label>
             </fieldset>
 
-            <label for="installDate">Date of Installation<span style="color:red;">*</span></label>
+            <label for="installDate">Date of Installation<span class="required">*</span></label>
             <input type="date" id="installDate" name="installDate" required>
 
             <label>Which feature did you find useful? (Check all that apply.)</label>
