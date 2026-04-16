@@ -99,6 +99,13 @@ section ul {
     list-style: none;
 }
 
+#shark-open section{
+    padding: 2rem;
+    flex-direction: column;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
 table {
     width: 100%;
     max-width: 600px;
