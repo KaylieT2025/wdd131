@@ -56,3 +56,9 @@ factButton.addEventListener("click", () => {
     }
     showFact(currentIndex);
 })
+
+document.querySelector("#feedback-form").addEventListener("submit", (e) => {
+
+    e.preventDefault();
+    alert("Message Sent");
+});
