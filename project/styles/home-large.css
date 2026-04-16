@@ -1,0 +1,7 @@
+@media (max-width: 600px){
+
+    .classification-img, .see-shark-img, .teaching-resources-img{
+
+        max-width: 200px;
+    }
+}
