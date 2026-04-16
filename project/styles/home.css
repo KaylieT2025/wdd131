@@ -163,6 +163,7 @@ footer {
     align-items: center;
     min-height: 80px;
     padding-bottom: 1rem;
+    padding-top: 1rem;
 }
 
 footer li,
@@ -171,4 +172,8 @@ a {
     color: white;
     line-height: 1.5rem;
 
+}
+
+footer svg{
+    fill: white;
 }
