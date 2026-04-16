@@ -1,0 +1,28 @@
+:root {
+
+    --primary-color: #77b6ea;
+    --secondary-color: #c4ebc8;
+    --accent-color: #37393a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Taviraj", serif;
+}
+
+header {
+
+    font-weight: 600;
+}
+
+h1 {
+    font-weight: 400;
+}
+
+p {
+    font-weight: 200;
+}
