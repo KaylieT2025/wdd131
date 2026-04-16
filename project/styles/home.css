@@ -1,8 +1,9 @@
 :root {
 
     --primary-color: #77b6ea;
-    --secondary-color: #c4ebc8;
+    --secondary-color: rgb(196, 235, 200);
     --accent-color: #37393a;
+    --secondary-color-transparent: rgba(196, 235, 200, 0.5);
 }
 
 * {
@@ -69,9 +70,48 @@ main{
 
 .hero{
 
-    width: 100%;
+    width: calc(100% + 4rem);
+    margin-left: -2rem;
     height: auto;
     margin-bottom: 1rem;
+    display: block;
+}
+
+.hero-card{
+
+    position: relative;
+}
+
+.hero-text{
+
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    /*transform: translate(-50% -50%);*/
+    width: 320px;
+    max-height: 90%;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: var(--secondary-color-transparent);
+    overflow: auto;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.hero-text h2{
+
+    margin: 0;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    border-radius: 10px 10px 0 0;
+    margin-top: -2rem;
+    margin-left: -2rem;
+    margin-right: -1.5rem;
+    text-align: center;
+}
+
+.hero-text p{
+
+    padding-top: 1rem;
 }
 
 .classification, .see-shark, .teaching-resources{
