@@ -1,0 +1,51 @@
+@media (max-width: 600px){
+
+    #hamburger-menu {
+    
+        font-size: larger;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+    
+    nav ul {
+    
+        display: none;
+    }
+    
+    nav ul.open {
+    
+        display: block;
+        width: 100%;
+    }
+    
+    nav li {
+    
+        margin: 0;
+    }
+    
+    nav a {
+        display: block;
+        padding: 1rem;
+        margin: 0.5rem 0;
+        text-align: center;
+    }
+
+    section{
+        text-align: center;
+    }
+    
+}
+
+@media (min-width: 601px) {
+
+    #hamburger-menu {
+
+        display: none;
+    }
+
+    nav ul {
+
+        display: flex;
+    }
+}
