@@ -3,5 +3,28 @@
     .classification-img, .see-shark-img, .teaching-resources-img{
 
         max-width: 200px;
+        margin: 0 auto;
+    }
+
+    .classification, .see-shark, .teaching-resources{
+
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .hero-text{
+
+        position: static;
+        width: 100%;
+        max-height: none;
+        margin-top: 1rem;
+        box-shadow: none;
+    }
+
+    .hero-text h2{
+
+        margin: 1rem 0;
+        border-radius: 10px;
     }
 }
