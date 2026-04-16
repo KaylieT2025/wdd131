@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Kaylie Tapia">
-    <meta name="description" content="Home page for shark research by Bay Max.">
+    <meta name="description" content="Deep ocean page for shark research by Bay Max.">
     <title>Bay Max Shark Research</title>
-    <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="styles/home-large.css">
-    <script src="scripts/home.js" defer></script>
+    <link rel="stylesheet" href="styles/deep-ocean.css">
+    <link rel="stylesheet" href="styles/deep-ocean-large.css">
+    <script src="scripts/deep-ocean.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@200;400;600&display=swap" rel="stylesheet">
@@ -27,24 +27,82 @@
 
         <h1>Bay Max Shark Research</h1>
 
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="coast-fresh-water.html">Coast and Freshwater</a></li>
-            <li><a href="open-ocean.html">Open Ocean</a></li>
-            <li><a href="deep-ocean.html">Deep Ocean</a></li>
-        </ul>
+        <button id="hamburger-menu">☰</button>
+
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="coast-fresh-water.html">Coast and Freshwater</a></li>
+                <li><a href="open-ocean.html">Open Ocean</a></li>
+                <li><a href="deep-ocean.html">Deep Ocean</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
 
-        <div class="shark-deep">
+        <div id="shark-deep">
+            <section class="latern-shark-info">
+                <img src="images/lantern.webp" class="lantern-shark" alt="Image of a Lantern sharks face up close." width="500" height="300" loading="lazy">
+                <h2>Lantern Shark</h2>
+                <p>Lantern sharks are pretty small compared to other sharks.
+                    The biggest they get is around 2 feet long.
+                    Very litte is know about the amazing Lantern sharks.
+                    They typically have a large snout and broad tail.
+                    Fun Fact: The sharks are typically found at depths around 1,148 to 7,260 feet deep. 
+                </p>
+                <ul>
+                    <li><a href="https://www.sharks.org/great-lanternshark-etmopterus-princeps">Lantern Shark Information</a></li>
+                </ul>
+            </section>
 
-            <img src="#" class="shark-deep1" alt="Image of Shark 1.">
-            <h2>Shark #1</h2>
-            <p>Description of shark.</p>
+            <section class="megamouth-shark-info">
+                <img src="images/megamouth-shark.webp" class="megamouth-shark" alt="Image of Megamouth Shark on display." width="500" height="300" loading="lazy">
+                <h2>Megamouth Shark</h2>
+                <p>A Megamouth shark has many small teeth instead of big ones.
+                    There are not amny records of sighting of the Megamouth sharks.
+                    Most of it is speculated or guessed indicating the species is very rare.
+                    "Probably migrates vertically with plankton, close to the surface at night, and deeper by day."
+                    Fun Fact: The fist of it's kind was found in 1976.
+                </p>
+                <ul>
+                    <li><a href="https://www.sharks.org/megamouth-shark-megachasma-pelagios">Megamouth Shark Information</a>
+                    </li>
+                </ul>
+            </section>
 
-
+            <section class="cookiecutter-shark-info">
+                <img src="images/cookiecutter-shark.webp" class="cookiecutter-shark" alt="Image of a Cookicutter shark with a black background." width="500" height="300" loading="lazy">
+                <h2>Cookiecutter Shark</h2>
+                <p>The Cookiecutter shark has 23-31 rows of sharp triangular teeth on it's bottom jaw.
+                    It's bite look just like a circle. Hence it's name, Cookiecutter, because it looks like a circular cookiecutter was used.
+                    The shark has, "...small cigar-shaped shark with a very short bulbous snout. 
+                    The shark has suctorial lips, its dorsal fins are set far back, 
+                    and it has a large, nearly symmetrical paddle-shaped caudal fin with a long ventral lobe."
+                    Fun Fact: The Cookiecutter shark grows to be just a little over a foot max.
+                </p>
+                <ul>
+                    <li><a href="https://www.sharks.org/cookiecutter-shark-isistius-brasiliensis">Cookiecutter Shark Information</a></li>
+                </ul>
+            </section>
         </div>
+
+        <h2>Shark Species in Deep Ocean</h2>
+
+        <table>
+            <tr><th>Most Common Sharks in the Deep Ocean</th></tr>
+
+            <tr><td>Portuguese Dogfish</td></tr>
+            <tr><td>Greenland Shark</td></tr>
+            <tr><td>Goblin Shark</td></tr>
+            <tr><td>Frilled Shark</td></tr>
+            <tr><td>Cookiecutter Shark</td></tr>
+            <tr><td>Megamouth Shark</td></tr>
+            <tr><td>Bluntnose Six-gill Shark</td></tr>
+            <tr><td>Pacific Sleeper Shark</td></tr>
+            <tr><td>Lantern Shark</td></tr>
+            
+        </table>
 
     </main>
 
