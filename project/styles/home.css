@@ -1,7 +1,7 @@
 :root {
 
     --primary-color: #77b6ea;
-    --secondary-color: rgb(196, 235, 200);
+    --secondary-color: #c4ebc8;
     --accent-color: #37393a;
     --secondary-color-transparent: rgba(196, 235, 200, 0.5);
 }
@@ -136,6 +136,15 @@ main{
     flex-direction: column;
 }
 
+.text ul{
+    list-style: none;
+}
+
+.text a{
+    text-decoration: none;
+    color: #004594;
+    font-weight: 200;
+}
 .classification-img, .see-shark-img, .teaching-resources-img{
 
     width: 100%;
