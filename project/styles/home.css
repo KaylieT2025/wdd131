@@ -122,11 +122,18 @@ main{
    gap: 2rem;
    margin-top: 2rem;
    padding: 1rem 0;
+   justify-content: space-between;
+   gap: 3rem;
 }
 
 .see-shark{
 
     flex-direction: row-reverse;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
 }
 
 .classification-img, .see-shark-img, .teaching-resources-img{
