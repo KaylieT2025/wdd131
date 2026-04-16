@@ -62,13 +62,49 @@ p {
     margin-bottom: 1rem;
 }
 
-main {
+/* main {
     background-color: var(--secondary-color);
     padding: 2rem;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+} */
+
+main{
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+main > *{
+    width: 100%;
+    max-width: 900px;
+}
+
+section{
+    width: 100%;
+}
+
+section img{
+    display: block;
+    margin: 0 auto;
+}
+
+section a{
+    text-decoration: none;
+    color: #004594;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+section ul{
+    list-style: none;
 }
 
 table{
