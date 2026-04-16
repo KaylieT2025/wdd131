@@ -7,9 +7,9 @@
     <meta name="author" content="Kaylie Tapia">
     <meta name="description" content="Home page for shark research by Bay Max.">
     <title>Bay Max Shark Research</title>
-    <link rel="stylesheet" href="styles/home.css">
-    <link rel="stylesheet" href="styles/home-large.css">
-    <script src="scripts/home.js" defer></script>
+    <link rel="stylesheet" href="styles/coast-fresh-water.css">
+    <link rel="stylesheet" href="styles/coast-fresh-water-large.css">
+    <script src="scripts/coast-fresh-water.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Taviraj:wght@200;400;600&display=swap" rel="stylesheet">
@@ -27,31 +27,89 @@
 
         <h1>Bay Max Shark Research</h1>
 
-        <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="coast-fresh-water.html">Coast and Freshwater</a></li>
-            <li><a href="open-ocean.html">Open Ocean</a></li>
-            <li><a href="deep-ocean.html">Deep Ocean</a></li>
-        </ul>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="coast-fresh-water.html">Coast and Freshwater</a></li>
+                <li><a href="open-ocean.html">Open Ocean</a></li>
+                <li><a href="deep-ocean.html">Deep Ocean</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <div id="shark-coast">
-            <img src="#" class="shark-coast1" alt="Image of Shark 1.">
-            <h2>Shark #1</h2>
-            <p>Description of shark.</p>
+            <section class="bull-shark-info">
+                <img src="images/bull-shark.webp" class="bull-shark" alt="Image of a bull shark swimming." width="500" height="300">
+                <h2>Bull Shark</h2>
+                <p>Bull sharks are stocky and heavy with a short blunt nose.
+                    Usualy found in water less that 100 feet deep. 
+                    "Gray with a faint white band on its flank. The fin tips of young sharks are often dusky. Sometimes a bull shark’s 
+                    back appears grazed, but these areas are actually bald patches caused by fluke infections 
+                    that result in loss of dermal denticles from the skin."
+                    Fun Fact: The bull sharks top and bottom teeth are different. The top are triangular
+                    and surrated. The bottom are slender with fine surration.
+                </p>
+                <ul>
+                    <li><a href="https://www.sharks.org/bull-shark-carcharhinus-leucas">Bull Shark Information</a></li>
+                </ul>
+            </section>
 
-            <img src="#" class="shark-coast2" alt="Image of Shark 2.">
-            <h2>Shark #2</h2>
-            <p>Description of shark.</p>
+            <section class="tiger-shark-info">
+                <img src="images/tiger-shark.webp" class="tiger-shark" alt="Image of Tiger shark surronded by small fish." width="500" height="300">
+                <h2>Tiger Shark</h2>
+                <p>Tiger sharks are very wide sharks. They come in all sorts of colors including 
+                    brown, olive, grey, dirty yellow, and even their stomachs can be colored gray or white.
+                    Youthful tiger sharks have very strong stripes that fade with age.
+                    Tiger sharks are nocturnal, coming inshore to feed at night.
+                    Fun Fact: The largest female tiger shark ever caught was 24 feet long and 3,110 pounds heavy.
+                </p>
+                <ul>
+                    <li><a href="https://www.sharks.org/tiger-shark-galeocerdo-cuvier?rq=tiger%20shark">Tiger Shark Information</a></li>
+                </ul>
+            </section>
 
-            <img src="#" class="shark-coast3" alt="Image of Shark 3.">
-            <h2>Shark #3</h2>
-            <p>Description of shark.</p>
+            <section class="hammerhead-shark-info">
+                <img src="images/hammerhead-shark.webp" class="hammerhead-shark" alt="Image of Hammerhead shark in shallow water." width="500" height="300">
+                <h2>Hammerhead Shark</h2>
+                <p>Hammerhead sharks are easily reconized with their unique head shapes that make up their name.
+                    Typically they are dark olive green to dark brownish with white tummies.
+                    "...the largest of the hammerhead sharks. 
+                    The shark grows to a length of at least 18.3 feet [5.6 m], and may attain a length
+                    of more than 20 feet [6.1 m]..."
+                    Fun Fact: The Great Hammerhead shark loves to eat stingrays and catfish.
+                </p>
+            </section>
         </div>
 
         <h2>Shark Species in Costal and Freshwater</h2>
-        <!--Table. Shark Name: Costal/Fresh-->
+        <!--Table of shark names-->
+        <table>
+            <tr><th>Shark Species in Coastal Water</th></tr>
+
+            <tr><td>Blacktip Shark</td></tr>
+            <tr><td>Atlantic Sharpnose Shark</td></tr>
+            <tr><td>Bull Shark</td></tr>
+            <tr><td>Lemon Shark</td></tr>
+            <tr><td>Spinner Shark</td></tr>
+            <tr><td>Sandbar Shark</td></tr>
+            <tr><td>Sand Tiger Shark</td></tr>
+            <tr><td>Scalloped Hammerhead</td></tr>
+            <tr><td>Great Hammerhead</td></tr>
+            <tr><td>Blacknose Shark</td></tr>
+            <tr><td>Caribbean Reef Shark</td></tr>
+            <tr><td>Smooth Dogfish</td></tr>
+            <tr><td>Pacific Sharpnose Shark</td></tr>
+            <tr><td>Leopard Shark</td></tr>
+
+            <tr><th>Freshwater Shark</th></tr>
+
+            <tr><td>Ganges Shark</td></tr>
+            <tr><td>Borneo River Shark</td></tr>
+            <tr><td>Speartooth Shark</td></tr>
+            <tr><td>Notheren River Shark</td></tr>
+            <tr><td>Bull Shark</td></tr>
+        </table>
     </main>
 
     <footer>
