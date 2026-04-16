@@ -167,7 +167,7 @@ footer {
 }
 
 footer li,
-a {
+footer a {
     list-style: none;
     color: white;
     line-height: 1.5rem;
